@@ -4,7 +4,7 @@ A computer vision / deep learning project that uses **MNIST** to generate synthe
 
 This repository is a cleaned, documented, and technically revised version of a university coursework notebook.
 
-![Eight generated five-digit handwritten samples](assets/five_digit_samples.png)
+![Eight generated five-digit handwritten samples](five_digit_samples.png)
 
 *Sample synthetic images from the original coursework notebook.*
 
