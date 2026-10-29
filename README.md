@@ -2,8 +2,6 @@
 
 A computer vision / deep learning project that uses **MNIST** to generate synthetic **five-digit handwritten numbers** and trains a **convolutional neural network (CNN)** to recognize each digit.
 
-This repository is a cleaned, documented, and technically revised version of a university coursework notebook.
-
 ![Eight generated five-digit handwritten samples](five_digit_samples.png)
 
 *Sample synthetic images from the original coursework notebook.*
