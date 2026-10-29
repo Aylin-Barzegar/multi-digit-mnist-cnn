@@ -67,7 +67,7 @@ Training uses 20 maximum epochs by default, with early stopping. Reduce `TRAIN_S
 ```text
 multidigit-mnist-github/
 ├── multidigit_mnist.ipynb   # Cleaned, annotated end-to-end notebook
-├── five_digit_samples.png # Sample visualization
+├── five_digit_samples.png   # Sample visualization
 ├── README.md                # Project documentation
 ├── requirements.txt         # Python dependencies
 ├── .gitignore               # Excluded local and generated files
@@ -79,13 +79,3 @@ multidigit-mnist-github/
 The initial notebook scaled digit labels by 255 and treated the five output values as binary cross-entropy targets. The resulting built-in accuracy metric did **not** directly measure correct five-digit recognition. This updated notebook uses **integer digit labels, categorical predictions for each digit**, and computes **exact-sequence accuracy** explicitly. It also removes unused imports, creates reusable preprocessing functions, adds deterministic sampling, and separates source images before validation to reduce leakage.
 
 These are **modeling changes**, not just cosmetic refactoring, so reported performance from the original notebook should not be directly compared with results from this version.
-
-## Results and limitations
-
-No benchmark number is included because the cleaned version has **not been trained and evaluated for this repository release**. Running the notebook prints the actual test metrics and displays predictions.
-
-Images are synthetic concatenations of MNIST digits. They do not fully represent real-world multi-digit handwriting (spacing, noise, touching digits, or varied layouts). Cropping may also remove strokes near the edges.
-
-## License and attribution
-
-This is a university coursework project built with the publicly available MNIST dataset via Keras. No dataset images are stored in this repository. Add a license only if you have the right to release the code under its terms.
