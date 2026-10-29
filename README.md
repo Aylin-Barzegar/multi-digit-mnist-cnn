@@ -67,7 +67,7 @@ Training uses 20 maximum epochs by default, with early stopping. Reduce `TRAIN_S
 ```text
 multidigit-mnist-github/
 ├── multidigit_mnist.ipynb   # Cleaned, annotated end-to-end notebook
-├── assets/five_digit_samples.png # Sample visualization
+├── five_digit_samples.png # Sample visualization
 ├── README.md                # Project documentation
 ├── requirements.txt         # Python dependencies
 ├── .gitignore               # Excluded local and generated files
